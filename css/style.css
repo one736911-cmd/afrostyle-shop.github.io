@@ -1,0 +1,675 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+header{
+top: 0;
+background-color: #111827;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+#Logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    a{
+        text-decoration: none;
+        color: #92400E;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        li{
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                font-family:  Playfair Display, Georgia, serif;
+            }
+            a:hover{
+                color: #D97706;
+            }
+            .active{
+                color: #92400E;
+                font-weight: bold;
+            }
+        }
+    }
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#Logo2{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#first{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                font-family:  Playfair Display, Georgia, serif;
+                font-weight: lighter;
+            
+            }
+            a:hover{
+                color: #D97706;
+            }
+        }
+    }
+    .info{
+        font-size: 16px;
+        font-family:  Playfair Display, Georgia, serif;
+        font-weight: lighter;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+    }
+    #reseau{
+        display: flex;
+        gap: 15px;
+        i{
+            font-size: 20px;
+            color:#92400E ;
+            cursor: pointer;
+        }
+        i:hover{
+            color:  #D97706;
+            ;
+        }
+    }   
+}
+
+#Droit{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-family:  Playfair Display, Georgia, serif;
+    font-weight: lighter;
+}
+
+/* accueil */
+#ban{
+    background-image: url(../image/stylish-african-american-man-white-shirt-colored-pants-with-hat-glasses-posed-outdoor-black-fashionable-model-boy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    #ban1{
+        padding: 20px 30px 20px 30px;
+        background-color: #FEF3C7;
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 48px;
+            font-weight: bold;
+            color: #92400E;
+            font-family:  Playfair Display, Georgia, serif;
+        }
+        p{
+            font-size: 18px;
+            color: #111827;
+            font-family:  Poppins, Arial, sans-serif;
+            margin-top: -10px;
+        }
+    }
+
+    #ban2{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        li{
+            list-style: none;
+            #button1{
+                padding: 10px 20px;
+                background-color: #92400E;
+                color: white;
+                font-size: 16px;
+                font-family:  Playfair Display, Georgia, serif;
+                border: none;
+                cursor: pointer;
+            }
+            #button1:hover{
+                scale: calc(1.05);
+                background-color: #D97706;
+            }
+            #button2{
+                padding: 10px 20px;
+                background-color:#065F46;
+                color: white;
+                font-size: 16px;
+                font-family:  Playfair Display, Georgia, serif;
+                border: none;
+                cursor: pointer;
+                
+            }
+            #button2:hover{
+                scale: calc(1.05);
+                background-color: #D97706;
+            }
+        }
+    }
+    
+}
+
+#presentation{
+    padding: 60px 20px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    h2{
+        font-size: 24px;
+        font-weight: bold;
+        color: #92400E;
+        font-family:  Playfair Display, Georgia, serif;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        color: #111827;
+        font-family:  Poppins, Arial, sans-serif;
+        margin-top: -5px;
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        li{
+            padding: 10px 20px;
+            background-color: #92400E;
+            border-radius: 10px;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family:  Poppins, Arial, sans-serif;
+            border: none;
+            cursor: pointer;
+            .avantage{
+                font-weight: bold;
+                color: #FEF3C7;
+                font-family:  Poppins, Arial, sans-serif;
+            }
+        }
+    }
+}
+
+#prodPop{
+    padding: 60px 20px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FEF3C7;
+    #pres1{
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        h2{
+        font-size: 24px;
+        font-weight: bold;
+        color: #92400E;
+        font-family:  Playfair Display, Georgia, serif;
+        text-align: center;
+        }
+        p{
+            font-size: 16px;
+            color: #111827;
+            font-family:  Poppins, Arial, sans-serif;
+            margin-top: -5px;
+            text-align: center;
+        }
+
+    }
+}
+#collections{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+}
+.collection{
+
+    padding: 10px 10px 20px 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    p{
+        margin-top: -5px;
+        font-size: 14px;
+        color: #6B7280;
+        font-family:  Poppins, Arial, sans-serif;
+    }
+    .titre{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: bold;
+        color: #92400E;
+        font-family:  Playfair Display, Georgia, serif;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px ;
+        background-color: #92400E;
+        color: white;
+        font-size: 16px;
+        font-family:  Playfair Display, Georgia, serif;
+        border: none;
+        cursor: pointer;
+        width: 40%;
+    }
+    button:hover{
+        scale: calc(1.05);
+        background-color: #D97706;
+    }
+}
+.collection:hover{
+    scale: calc(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#produits{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.produit{
+    padding: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    p{
+        margin-top: -5px;
+        font-size: 12px;
+        color: #6B7280;
+        font-family:  Poppins, Arial, sans-serif;
+    }
+    .titre{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: bold;
+        color: #92400E;
+        font-family:  Playfair Display, Georgia, serif;
+        .categorie{
+            font-size: 12px;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-family:  Poppins, Arial, sans-serif;
+            background-color: #D97706;
+            padding: 5px 10px 5px 10px ;
+            border-radius: 50%;
+        }
+    }
+    .prix{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #D97706;
+        font-family:  Poppins, Arial, sans-serif;
+    }
+    .but{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        .com{
+            padding: 10px ;
+            background-color: #065F46;
+            color: white;
+            font-size: 16px;
+            font-family:  Playfair Display, Georgia, serif;
+            border: none;
+            cursor: pointer;
+            width: 40%;
+        }
+        .com:hover{
+            scale: calc(1.05);
+            background-color: #D97706;
+        }
+        .voir{
+            padding: 10px ;
+            background-color: #92400E;
+            color: white;
+            font-size: 16px;
+            font-family:  Playfair Display, Georgia, serif;
+            border: none;
+            cursor: pointer;
+            width: 20%;
+        }
+        .voir:hover{
+            scale: calc(1.05);
+            background-color: #D97706;
+        }
+    }
+}
+.produit:hover{
+    scale: calc(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        background-color: #FEF3C7;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: #6B7280 0px 4px 8px;
+        label{
+            font-size: 14px;
+            color: #111827;
+            font-family:  Poppins, Arial, sans-serif;
+            margin-top: 15px;
+        }
+        input{
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #D1D5DB;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family:  Poppins, Arial, sans-serif;
+        }
+        textarea{
+            margin-top: 15px;
+            padding: 30px;
+            border: 1px solid #D1D5DB;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family:  Poppins, Arial, sans-serif;
+        }
+        button{
+            margin-top: 15px;
+            padding: 10px ;
+            background-color: #92400E;
+            color: white;
+            font-size: 16px;
+            font-family:  Playfair Display, Georgia, serif;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+        button:hover{
+            scale: calc(1.05);
+            background-color: #D97706;
+        }
+    }
+}
+#options{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    input{width: 60%;}
+}
+
+/* Media Queries pour la responsivité */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Logo {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+        font-size: 14px;
+
+    }
+
+    #ban {
+        padding-left: 20px;
+        padding-right: 20px;
+        #ban1 h1 {
+            font-size: 36px;
+        }
+        #ban1 p {
+            font-size: 16px;
+        }
+        #ban2 {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    #presentation ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #collections {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    #produits {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+
+        .categorie {
+            font-size: 10px;
+            width: 30%;
+        }
+    }
+
+    #formulaire form {
+        width: 300px;
+        padding: 15px;
+    }
+
+    #first {
+        flex-direction: column;
+        gap: 20px;
+        ul {
+            flex-direction: row;
+            justify-content: center;
+        }
+        .info {
+            flex-direction: column;
+            text-align: center;
+        }
+        #reseau {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    #Logo {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    #ban {
+        padding-left: 10px;
+        padding-right: 10px;
+        #ban1 {
+            padding: 15px 20px;
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        #ban2 li #button1, #ban2 li #button2 {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+    }
+
+    #presentation {
+        padding: 40px 10px;
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+        ul li {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+    }
+
+    #prodPop {
+        padding: 40px 10px;
+        #pres1 h2 {
+            font-size: 20px;
+        }
+        #pres1 p {
+            font-size: 14px;
+        }
+    }
+
+    #collections {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .collection {
+        padding: 8px;
+        .titre {
+            font-size: 14px;
+        }
+        button {
+            width: 50%;
+            font-size: 14px;
+        }
+    }
+
+    #produits {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .produit {
+        padding: 8px;
+        .titre {
+            font-size: 14px;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .prix {
+            font-size: 14px;
+        }
+        .but {
+            flex-direction: column;
+            .com, .voir {
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+        .categorie {
+            font-size: 10px;
+            width: 30%;
+        }
+    }
+
+    #formulaire form {
+        width: 250px;
+        padding: 10px;
+        label {
+            font-size: 12px;
+        }
+        input, textarea {
+            font-size: 12px;
+        }
+        button {
+            width: 60%;
+            font-size: 14px;
+        }
+    }
+
+    #first {
+        padding: 10px;
+        ul li a {
+            font-size: 14px;
+        }
+        .info {
+            font-size: 14px;
+        }
+        #reseau i {
+            font-size: 18px;
+        }
+    }
+
+    #Droit {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
